@@ -7,5 +7,40 @@ body
 }
 form
 {
-	
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type="Name"],
+input[type="Email"],
+input[type="Gender"],
+input[type="Laptop Brand"],
+input[type="Portfolio URL"],
+input[type="password"]
+{
+	width:100%px;
+	padding:4px;
+	 margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #45a049;
 }
